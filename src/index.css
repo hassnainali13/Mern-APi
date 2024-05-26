@@ -1,13 +1,21 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Arial, sans-serif; /* Change font family to Arial */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: Consolas, monospace; /* Change font family to Consolas */
 }
+
+/* Additional styles */
+h1 {
+  color: #333; /* Change heading color */
+}
+
+p {
+  line-height: 1.6; /* Increase line height for paragraphs */
+}
+
+/* Add more custom styles as needed */
